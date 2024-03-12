@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/navfooter.css">
+    <link rel="stylesheet" href="/common.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <title>Document</title>
+</head>
+<style>
+    .bg-img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    .bg-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .container-0 {
+        position: absolute;
+        top: 50%;
+        left: 25px;
+        width: 16rem;
+        font-size: 2.2rem;
+    }
+
+    .container-1 {
+        position: absolute;
+        left: 25px;
+    }
+
+    .second-part {
+        margin-top: 100vh;
+        margin-bottom: 10rem;
+        border: solid transparent;
+    }
+
+    .products-conatiner {
+        margin-top: 8rem;
+    }
+</style>
+
+<body>
+    <!-- nav bar -->
+    <nav>
+        <ul class="left-nav">
+            <li><a href="plants.html">Plants</a></li>
+            <li><a href="workshop.html">Workshop</a></li>
+            <li><a href="lifestyle.html">Lifestyle</a></li>
+        </ul>
+        <a href="/index.html">
+            <img src="//images.squarespace-cdn.com/content/v1/5f6effe2de91535318dd74a3/3eb06944-aca8-40f1-ad3a-509b04ae59bc/soilboy-logo_fa.png?format=1500w"
+                width="170px" alt="soilboy" class="logo"></a>
+        <ul class="right-nav">
+            <li><a href="login.html">Login</a></li>
+            <li><a href="contactus.html"><button class="btn-contact-us btn">contact us</button></a></li>
+        </ul>
+    </nav>
+
+    <!-- first part -->
+    <div class="bg-img">
+        <img src="/img/IMG_3051_2.jpg" alt="">
+    </div>
+    <div class="container-0 text-btn">
+        <article>‘As interesting as a plant’</article>
+        <button class="btn">Shop Now</button>
+    </div>
+
+    <!-- second part -->
+    <div class="second-part">
+        <div class="container-1 text-btn">
+            <p>Featured Products</p>
+            <button class="btn ">View All</button>
+        </div>
+        <div class="products-conatiner">
+            <div class="product">
+                <img src="/img/Dioon-orb.-cream_t.jpg" alt="" class="product-img">
+                <p class="product-details">Dioon Edule (Orb Speckled) SGD 159.00</p>
+            </div>
+            <div class="product">
+                <img src="/img/Korean-Hedera_Moon_t.jpg" alt="" class="product-img">
+                <p class="product-details">Korean Hedera (Moon Pot) SGD 108.00</p>
+            </div>
+            <div class="product">
+                <img src="img/Maple-Tree_Curve_t.jpg" alt="" class="product-img">
+                <p class="product-details">Japanese Maple Tree from SGD 98.00</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <p class="footer-hading">Stay Updated</p>
+        <div class="subscribe-container">
+            <p>Subscribe</p>
+            <form action="">
+                <input type="email" name="email" placeholder="Get product updates" id="email" required>
+                <button class="submit-btn" type="submit" name="email"><i class="fa-solid fa-arrow-right"></i></button>
+            </form>
+        </div>
+        <div class="link-container">
+            <p><b>Quick Links</b></p>
+            <a href="plants.html">Plants</a>
+            <a href="workshop.html">workshops</a>
+            <a href="lifestyle.html">Lifestyle</a>
+            <a href="contactus.html">Contact us</a>
+        </div>
+        <hr>
+        <div class="last-line">
+            <div class="social-media-links">
+                <button class="social-media-btn"><i class="fa-brands fa-linkedin-in"></i></button>
+                <button class="social-media-btn"><i class="fa-brands fa-facebook-f"></i></button>
+                <button class="social-media-btn"><i class="fa-brands fa-twitter"></i></button>
+            </div>
+            <div class="copy-right-text">© 2020 Soilboy. All right reserved</div>
+        </div>
+    </div>
+</body>
+
+</html>
